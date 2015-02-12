@@ -3,27 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="这里是犹梦哲的主页，进入博客和其他资源的入口。">
+    <meta name="description" content="犹梦哲的主页，进入博客和其他资源的入口。">
+    <meta name="keywords" content="mengzyou,犹梦哲">
+    <meta name="author" content="Mengzhe You,犹梦哲">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>梦哲-主页</title>
 
     <!-- Add to homescreen -->
-    <!-- <link rel="manifest" href="manifest.json"> -->
+    <link rel="manifest" href="manifest.json">
 
     <!-- Fallback to homescreen for Chrome <39 on Android -->
-    <!-- <meta name="mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="梦哲的主页">
-    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png"> -->
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 
     <!-- Add to homescreen for Safari on iOS -->
-    <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="梦哲的主页">
-    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png"> -->
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <!-- <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF"> -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
 
     <meta name="theme-color" content="#3372DF">
 
@@ -36,11 +38,14 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <header class="header-bar">
+    <header id="head-bar">
       <div class="container">
         <!-- <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button> -->
-        <img id="logo" src=images/head/head_400x400.png alt="Header">
-        <h1 class="logo">欢迎来到我的主页</h1>
+        <div class="inner-center">
+          <img class="circle-box" src=images/head/head_400x400.png alt="头像">
+        </div>
+        <h1 class="head-text">Welcome</h1>
+        <h4 class="head-text">一直在寻找，可从未发现！<h4>
         <!-- <section class="app-bar-actions"> -->
         <!-- Put App Bar Buttons Here -->
         <!-- e.g <button><i class="icon icon-star"></i></button> -->
