@@ -35,7 +35,7 @@ body {
 }
 
 #head-bar h1 {
-  font-weight: 200;
+  font-weight: bolder;
   font-size: 60px;
   line-height: 1em;
   margin-bottom: 0;
@@ -44,6 +44,8 @@ body {
 
 #head-bar h4 {
   margin-top: 0;
+  font-size: 0.6em;
+
 }
 
 .circle-box {
@@ -159,13 +161,11 @@ main {
     line-height: 60px;
     margin: 10px;
     padding-right: 10px;
+    padding-top: 20px;
     color: #fefefe;
-    // font-weight: 400;
+    font-weight: 400;
     text-align: left;
-    
-    h4 {
-      font-size: 0.6em;
-    }
+    float: right;
   }
   
   nav.nav {
