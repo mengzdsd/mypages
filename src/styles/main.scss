@@ -146,6 +146,7 @@ main {
     width: 80%;
     position: relative;
     margin: 0 auto;
+    max-width: 800px;
   }
   
   #head-bar img {
@@ -191,5 +192,17 @@ main {
       border: none;
       transition: background-color 0.2s ease-out;
     }
+  }
+  
+  .foot-col-1 {
+    float: left;
+  }
+  
+  .foot-col-2 {
+    float: right;
+  }
+  
+  .foot-col-clear {
+    clear: both;
   }
 }
