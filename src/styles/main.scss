@@ -20,7 +20,13 @@ body {
   padding: 0;
 }
 
-#head-bar {
+#container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+header {
   padding: 0.8em 0.8em 0 0.8em;
   color: white;
   font-family: Roboto, helvetica, arial, sans-serif;
@@ -29,12 +35,12 @@ body {
   background-size: cover;
 }
 
-#head-bar img {
+header img {
   width: 200px;
   height: 200px;
 }
 
-#head-bar h1 {
+header h1 {
   font-weight: bolder;
   font-size: 60px;
   line-height: 1em;
@@ -42,7 +48,7 @@ body {
   margin-top: 0;
 }
 
-#head-bar h4 {
+header h4 {
   margin-top: 0;
   font-size: 0.6em;
 
@@ -118,13 +124,16 @@ main {
   height: 30px;
 }
 
-#foot-bar {
-  padding: 0.4em;
+footer {
+  padding: 2px 5px;
   color: white;
   font-family: Roboto, helvetica, arial, sans-serif;
   background-image: url('/images/header_background.png');
   background-color: black;
   background-size: cover;
+  height: 100px;
+  margin-top: -104px;
+  clear: both;
 }
 
 .foot-col-wrapper {
@@ -144,14 +153,14 @@ main {
 
 // wide screen for tab and desktop
 @media screen and (min-width: 600px) {
-  .container {
+  .wrapper {
     width: 80%;
     position: relative;
     margin: 0 auto;
     max-width: 800px;
   }
   
-  #head-bar img {
+  header img {
     float: left;
     margin: 10px;
   }
@@ -192,6 +201,11 @@ main {
       border: none;
       transition: background-color 0.2s ease-out;
     }
+  }
+  
+  footer {
+    height: 50px;
+    margin-top: -54px;
   }
   
   .foot-col-1 {
