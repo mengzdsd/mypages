@@ -149,6 +149,7 @@ gulp.task('serve', ['styles'], function () {
     // Note: this uses an unsigned certificate which on first access
     //       will present a certificate warning in the browser.
     // https: true,
+    port: 8080,
     server: ['.tmp', 'src']
   });
 
