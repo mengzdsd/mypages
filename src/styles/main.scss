@@ -112,6 +112,34 @@ nav ul li {
   }
 }
 
+main {
+  height: 30px;
+}
+
+#foot-bar {
+  padding: 0.4em;
+  color: white;
+  font-family: Roboto, helvetica, arial, sans-serif;
+  background-image: url('/images/header_background.png');
+  background-color: black;
+  background-size: cover;
+}
+
+.foot-col-wrapper {
+  color: #efefef;
+  padding: 0;
+  margin: 0;
+}
+
+.foot-col h2 {
+  margin: 0;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+}
+
 // wide screen for tab and desktop
 @media screen and (min-width: 600px) {
   .container {
