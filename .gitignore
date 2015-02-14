@@ -2,3 +2,4 @@ node_modules
 dist
 .tmp
 .c9
+s3_website.yml
