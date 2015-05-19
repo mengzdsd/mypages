@@ -213,22 +213,7 @@
     color: #fff;
   }
 }
-.post-footer .sharing {
-  padding-bottom: 2em;
-}
-div.pagination {
-  text-align: center;
-  padding-bottom: 1em;
-  position: relative;
-}
-div.pagination a.prev {
-  position: absolute;
-  left: 0;
-}
-div.pagination a.next {
-  position: absolute;
-  right: 0;
-}
+
 /**
  * Footer
  */
@@ -237,14 +222,5 @@ h2.footer-heading {
   margin-bottom: 0;
 }
 ul.contact-list {
-  margin-bottom: 5px;
-}
-/**
- * post footer
- */
-p.categories {
-  margin-bottom: 0;
-}
-p.tags {
   margin-bottom: 5px;
 }

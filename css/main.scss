@@ -13,7 +13,6 @@ $base-line-height: 1.5;
 
 $spacing-unit:     20px;
 
-$contact-email-color: rgba(#00aabb, 0.8);
 $text-color:       #111;
 $text-white-color: #fff;
 $background-color: black;
@@ -55,7 +54,5 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting",
-        "archive"
+        "layout"
 ;

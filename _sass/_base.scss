@@ -125,17 +125,6 @@ a.page-link {
   }
 }
 
-a.read-more {
-  color: $text-color;
-  font-size: 12px;
-  display: inline-block;
-  background: #ebebeb;
-  border-radius: 2px;
-  &:hover {
-    color: $text-white-color;
-    background: $brand-color;
-  }
-}
 /**
  * Blockquotes
  */
@@ -150,28 +139,7 @@ blockquote {
     margin-bottom: 0;
   }
 }
-/**
- * Code formatting
- */
-pre,
-code {
-  font-size: 15px;
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-}
-code {
-  padding: 1px 5px;
-}
-pre {
-  padding: 8px 12px;
-  overflow-x: scroll;
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
+
 /**
  * Wrapper
  */
@@ -230,24 +198,5 @@ pre {
     path {
       fill: $grey-color;
     }
-  }
-}
-/**
- * post footer categories and tags
- */
-p.tags {
-  a {
-    color: $text-white-color;
-    font-size: 12px;
-    display: inline-block;
-    background: $brand-color;
-    border-radius: 2px;
-    &:hover {
-      color: $text-white-color;
-      background: #ebebeb;
-    }
-  }
-  &:before {
-    content: url("/images/tag_icon2_54x20.png");
   }
 }
