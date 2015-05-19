@@ -1,5 +1,9 @@
-node_modules
-dist
-.tmp
+_site
+.sass-cache
+
+# IDE project file
+.codio
 .c9
+
+# deploy configuration file
 s3_website.yml
