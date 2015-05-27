@@ -3,6 +3,7 @@ layout: page
 title: "工作简历（Resume）"
 description: "犹梦哲的工作简历"
 keywords: "犹梦哲, 工作简历, Resume"
+published: false
 comments: false
 sidebar: false
 sharing: false
